@@ -46,7 +46,10 @@ app.delete('/api/students/:id', (req, res) => {
   fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
   res.json({ success: true });
 });
-
+// Add this before app.listen
+app.get('/', (req, res) => {
+  res.json({ message: "Hostel System API is running 🚀" });
+});
 app.listen(PORT, () => {
   console.log(`✅ Server running on http://localhost:${PORT}`);
 });

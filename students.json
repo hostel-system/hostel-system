@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "name": "swetha chelladurai",
     "room": "12",
     "id": 1786095809851
@@ -23,5 +24,15 @@
     "name": "manju",
     "room": "13",
     "id": 1786100171142
+=======
+    "id": 1786278329676,
+    "name": "swetha",
+    "room": "12"
+  },
+  {
+    "id": 1786278337981,
+    "name": "kani",
+    "room": "20"
+>>>>>>> a89acae347c64c8f133b82d64755d732e18d7ee4
   }
 ]

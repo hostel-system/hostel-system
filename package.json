@@ -1,7 +1,25 @@
 {
+<<<<<<< HEAD
   "dependencies": {
     "axios": "^1.19.0",
     "cors": "^2.8.6",
     "express": "^5.2.1"
+=======
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "sqlite3": "^6.0.1"
+>>>>>>> a89acae347c64c8f133b82d64755d732e18d7ee4
   }
 }

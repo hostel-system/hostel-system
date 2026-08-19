@@ -1,0 +1,12 @@
+body { margin: 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); font-family: Arial; }
+.login-container,.home-container { max-width: 600px; margin: 30px auto; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.2); text-align: center; }
+h1 { color: #667eea; }
+input { width: 90%; padding: 12px; margin: 10px 0; border: 2px solid #667eea; border-radius: 8px; font-size: 16px; }
+.search-box { border: 2px solid #764ba2; margin-bottom: 20px; }
+button { background: #667eea; color: white; padding: 12px 25px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer; margin: 5px; }
+button:hover { background: #764ba2; }
+.logout-btn { color: red; text-decoration: none; font-weight: bold; display: block; margin-bottom: 20px; }
+.form-box,.list-box { margin-top: 20px; padding: 20px; background: #f8f9fa; border-radius: 10px; }
+.student-row { display: flex; justify-content: space-between; align-items: center; padding: 12px; margin: 8px 0; background: white; border-radius: 8px; border: 1px solid #ddd; }
+.btn-edit { background: #f39c12; padding: 8px 15px; }
+.btn-delete { background: #c0392b; padding: 8px 15px; }
